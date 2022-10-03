@@ -18,3 +18,20 @@
             display: flex;
         }
    }
+
+/* --------------
+   UTILITY SECTION
+   -------------- */
+
+   @media screen and (min-width: 768px) {
+    .utility .card {
+        width: calc(100% / 3);
+    }
+
+    .utility .big {
+        width: calc((100% / 3) * 2);
+    }
+
+   }
+
+  
