@@ -8,10 +8,20 @@
     display: flex;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .space-between {
     justify-content: space-between;
 }
 
 section {
     padding: 50px 30px;
+}
+
+.container {
+    max-width: 68.75rem;
+    padding: 0rem 1.25rem;
+    margin: auto;
 }

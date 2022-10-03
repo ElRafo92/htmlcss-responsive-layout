@@ -6,8 +6,20 @@
 
 header {
     background-color: #0084fd;
+    padding: 1.25rem 0rem;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000000;
 }
 
 header nav {
     display: none;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
 }
