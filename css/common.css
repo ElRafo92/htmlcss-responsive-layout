@@ -1,0 +1,17 @@
+/*--------------------
+----------------------
+       COMMON
+----------------------
+----------------------*/
+
+.row {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+section {
+    padding: 50px 30px;
+}
