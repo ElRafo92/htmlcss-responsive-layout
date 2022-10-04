@@ -5,7 +5,7 @@
 ----------------------*/
 
 header {
-    background-color: #0084fd;
+    background-color: var(--blue);
     padding: 1.25rem 0rem;
     color: white;
     position: fixed;

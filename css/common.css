@@ -25,3 +25,11 @@
 section {
     padding: 3.125rem 1.875rem;
 }
+
+.card {
+    margin: 1.25rem 0;
+}
+
+img {
+    width: 100%;
+}
