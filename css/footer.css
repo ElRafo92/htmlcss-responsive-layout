@@ -1,0 +1,16 @@
+/*--------------------
+----------------------
+        FOOTER
+----------------------
+----------------------*/
+
+footer {
+    background-color: var(--black);
+    padding: 1.875rem 3.125rem;
+    text-align: center;
+    color: white;
+}
+
+footer p:last-child {
+padding-top: 2.5rem;
+}
