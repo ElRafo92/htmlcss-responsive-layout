@@ -112,5 +112,20 @@
             width: 30%;
         }
 
+        .about-us .quote {
+            position: absolute;
+            top: 0%;
+            right: 0%;
+        }
+
+    }
+
+   @media screen and (min-width: 768px) {
+
+        .about-us .quote {
+            position: absolute;
+            top: 5%;
+            right: 10%;
+        }
 
    }

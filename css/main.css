@@ -123,7 +123,25 @@ font-size: 1.25rem;
 
 .benefits .card {
     background-color: white;
-    
+    border-radius: 1.875rem;
+
+}
+
+.benefits h1 {
+    font-size: 3.75rem;
+}
+
+.benefits h3 {
+    margin: 1.25rem 0;
+}
+
+.benefits h1,h3 {
+    color: var(--purple);
+}
+
+.benefits .btn {
+    background-color: var(--purple);
+    color: white;
 }
 
 /*--------------------
@@ -131,6 +149,45 @@ font-size: 1.25rem;
   ABOUT-US SECTION
 ----------------------
 ----------------------*/
+.about-us .small {
+    position: relative;
+}
+
+.about-us .quotation-mark {
+}
+
+.about-us .quote {
+    font-size: 3.75rem;
+    color: var(--purple);
+    position: absolute;
+    top: 5%;
+    right: 40%;
+
+}
+
+.about-us .title {
+    font-size: 2.5rem;
+    padding-bottom: 1.875rem;
+}
+
+.about-us .linkedin {
+    margin-right: 0.625rem;
+}
+
+.about-us h2 {
+    color: var(--purple);
+}
+
+.about-us img {
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+}
+
+.about-us button {
+    background-color: var(--purple);
+    color: white;
+}
 
 /*--------------------
 ----------------------
@@ -140,5 +197,19 @@ font-size: 1.25rem;
 
 .get-started {
     background-color: var(--purple);
+    text-align: center;
+    color: white;
 }
 
+.get-started small,h1,h2,p,button {
+    margin: 1.25rem 0;
+}
+
+.get-started h1 {
+    font-size: 3.75rem;
+    color: var(--yellow);
+}
+
+.get-started button {
+    color: var(--purple);
+}
