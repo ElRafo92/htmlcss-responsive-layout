@@ -48,3 +48,8 @@ header .btn:last-child {
     background-color: white;
     color: black;
 }
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
