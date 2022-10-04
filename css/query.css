@@ -17,6 +17,8 @@
         header nav {
             display: flex;
         }
+
+        header ul 
    }
 
 /* --------------
@@ -25,13 +27,31 @@
 
    @media screen and (min-width: 768px) {
     .utility .card {
-        width: calc(100% / 3);
+        margin: 0.625rem;
+        width: calc(100% / 3 - 1.25rem);
     }
 
     .utility .big {
-        width: calc((100% / 3) * 2);
+        width: calc((100% / 3) * 2 - 1.25rem);
     }
 
+   }
+
+   @media screen and (min-width: 992px) {
+
+    .utility .big {
+        flex-wrap: nowrap;
+    }
+
+    .utility {
+        padding-top: 8.125rem;
+    }
+    
+    .utility .logo {
+        display: flex;
+        align-items: center;
+    }
+    
    }
 
    /* --------------

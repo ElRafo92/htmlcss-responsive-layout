@@ -15,6 +15,21 @@ header {
     z-index: 1000000;
 }
 
+header .row {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+header button {
+    background-color: var(--blue);
+    border-style: none;
+    font-size: 1.875rem;
+}
+
+header i {
+    color: white;
+}
+
 header nav {
     display: none;
 }
@@ -22,4 +37,14 @@ header nav {
 header ul {
     display: flex;
     list-style: none;
+}
+
+header .menu {
+    display: flex;
+    align-content: center;
+}
+
+header .btn:last-child {
+    background-color: white;
+    color: black;
 }

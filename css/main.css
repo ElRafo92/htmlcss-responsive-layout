@@ -10,8 +10,34 @@
 
 .utility .card {
     width: 100%;
+    background-color: var(--celes);
+    border-radius: 20px;
+    text-align: center;
 }
 
+.utility h3 {
+    color: var(--blue);
+    padding: 0.625rem 0;
+}
+
+.utility p {
+    padding: 0.625rem 0;
+}
+
+.utility .img {
+    position: relative;
+    bottom: -14px;
+}
+
+.utility .utility-button {
+    background-color: var(--blue);
+    color: white;
+}
+
+.utility .icon {
+    color: var(--blue);
+    font-size: 2.5rem;
+}
 /*--------------------
 ----------------------
     PLANNING SECTION
