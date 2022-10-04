@@ -4,6 +4,11 @@
 ----------------------
 ----------------------*/
 
+body {
+    font-family: 'PT Sans', sans-serif;
+
+}
+
 .row {
     display: flex;
 }
@@ -33,4 +38,11 @@ section {
 
 img {
     width: 100%;
+}
+
+.btn {
+    border-style: none;
+    border-radius: 30px;
+    padding: 0.625rem 1.25rem;
+    
 }
