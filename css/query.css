@@ -58,12 +58,23 @@
    PLANNING SECTION
    -------------- */
 
-   @media screen and (min-width: 768px) {
+   @media screen and (min-width: 992px) {
     
     .planning .card {
-        width: 50%;
+        width: calc(50% - 1.25rem);
     }
 
+   }
+
+   /* --------------
+   TESTIMONIALS SECTION
+   -------------- */
+
+   @media screen and (min-width: 768px) {
+    .testimonials .card {
+        display: flex;
+        align-items: center;
+    }
    }
 
    /* --------------
