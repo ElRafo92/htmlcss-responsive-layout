@@ -39,9 +39,12 @@
    -------------- */
 
    @media screen and (min-width: 768px) {
+    
     .planning .card {
         width: 50%;
     }
+
+   }
 
    /* --------------
    BENEFITS SECTION
@@ -53,11 +56,30 @@
         width: calc(50% - (0.625rem * 2));
     }
 
+   }
+
     @media screen and (min-width: 992px) {
+        
         .benefits .card {
             margin: 0.625rem;
             width: calc(100% / 3 - (0.625rem * 2));
         }
-    
 
-  
+    }
+    
+  /* --------------
+   ABOUT US SECTION
+   -------------- */
+
+   @media screen and (min-width: 768px) {
+
+        .about-us .big {
+            width: 70%;
+        }
+
+        .about-us .small {
+            width: 30%;
+        }
+
+
+   }

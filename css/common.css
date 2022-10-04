@@ -28,6 +28,7 @@ section {
 
 .card {
     margin: 1.25rem 0;
+    padding: 0.625rem;
 }
 
 img {
