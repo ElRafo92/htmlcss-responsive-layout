@@ -54,13 +54,18 @@
     margin: 0.625rem;
 }
 
-.planning .strategic {
+.planning .strategic,.strategic-title {
     color: white;
+    text-align: left;
 }
 
 .planning .app {
     background-color: white;
     border-radius: 40px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .planning-button {
@@ -71,9 +76,9 @@
     border-style: none;
     padding: 1.25rem;
 
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     
     
 }
