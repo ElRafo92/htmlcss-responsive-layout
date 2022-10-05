@@ -70,6 +70,11 @@
     background-color: var(--purple);
     border-style: none;
     padding: 1.25rem;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
     
 }
 
@@ -106,11 +111,17 @@ font-size: 1.25rem;
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    object-fit: cover;  /* serve ad adattare l'immagine e fare si che tagli gli eccessi*/
 }
 
 .testimonials h2,small,.info {
     margin: 1.25rem 0;
 }
+
+.testimonials .description {
+    padding: 0 1.875rem;
+}
+
 /*--------------------
 ----------------------
   BENEFITS SECTION
